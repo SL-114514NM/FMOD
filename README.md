@@ -1,3 +1,8 @@
+# Select a readme language(选择自述语言)
+| 语言 | Language | 链接/Link |
+| :-- | :-- | :-- |
+| 中文 | Chinese | [中文自述](README.md#chinese%E4%B8%AD%E6%96%87%E8%87%AA%E8%BF%B0) |
+| English | English | [English README](README.md#english%E8%8B%B1%E6%96%87%E8%87%AA%E8%BF%B0) |
 # English英文自述
 # FMOD  
 A lightweight plugin loading system for SCP: Secret Laboratory (SCP SL) in Chinese.  
