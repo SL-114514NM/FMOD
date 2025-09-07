@@ -13,10 +13,6 @@ After extraction, copy the "FMOD" and "SCP Secret Laboratory" folders to `%appda
 Restart your server.  
 If "Welcome to FMOD" is displayed, the installation was successful.  
 
-# Key Features  
-- **SSHint**: Customize vertical coordinate display content.  
-- **AudioManager**: Play audio in MP3 and OGG formats (inspired by [SecretLabNAudio](https://github.com/Axwabo/SecretLabNAudio)).  
-- **SimpleKeyBindManager**: Manage key bindings.  
 
 # Plugin Development  
 [Click here to view](https://github.com/SL-114514NM/FMOD/blob/main/README.md#%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B--development-tutorial)  
@@ -36,10 +32,6 @@ Subcommands:
 解压然后将里面的"FMOD","SCP Secret Laboratory"文件夹复制到%appdata%里\
 重启服务器\
 显示"欢迎使用FMOD"表示安装成功
-# 主要功能
-SSHint, 自定义垂直坐标显示内容\
-AudioManager, 播放mp3,ogg格式的音频(想法来自于[SecretLabNAudio](https://github.com/Axwabo/SecretLabNAudio))\
-SimpleKeyBindManager, 管理按键绑定
 # 制作插件
 [点击查看](https://github.com/SL-114514NM/FMOD/blob/main/README.md#%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B--development-tutorial)
 # 命令
