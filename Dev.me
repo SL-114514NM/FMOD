@@ -1,1 +1,42 @@
+# 编写教程
+要先引用这些dll文件(因为我还没有弄nuget)\
+然后写一个Config.cs作为配置文件, 写一个Plugin.cs作为插件主类\
+示例(Config.cs):
+```
+public class Config
+{
+  //可以不写IsEnabled, 因为它会自动生成
+  public string Hello { get;set;} = "Hello Word";
+}
+```
+示例(Plugin.cs):
+```
+using FMOD.Plugins
 
+publc class Plugin: Plugin
+{
+  public override string Author => "制作者名字";
+
+  public override Version Version => new Version(1,0);//版本号
+
+  public override string Name => "插件名称";
+
+  public override string Description => "插件说明";
+  public override Type ConfigType => typeof(Class1);//指定一个类作为插件的配置文件
+  public override void OnDisabled()
+  {
+    //注销事件
+  }
+
+  public override void OnEnabled()
+  {
+    //注销  ·
+    Log.Debug("启动!");
+    var config = GetConfig<Class1>();//获取配置文件
+    Log.Debug($"{config.Hello}");//在控制台打印内容
+    Log.CustomInfo($"{config.Hello}", UnityEngine.red);//打印指定颜色的内容
+  }
+}
+```
+然后按F6生成\
+然后将插件文件放在"(appdata)/FMOD/Plugins/(服务器端口号)"里, 然后重启服务器或输入指令"fmod reload"热重启
