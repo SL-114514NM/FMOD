@@ -1,3 +1,28 @@
+# English英文自述
+# FMOD  
+A lightweight plugin loading system for SCP: Secret Laboratory (SCP SL) in Chinese.  
+
+# Installation  
+Download "FMOD.zip" and extract it to `%appdata%` (using Windows as an example). 
+After extraction, copy the "FMOD" and "SCP Secret Laboratory" folders to `%appdata%`.  
+Restart your server.  
+If "Welcome to FMOD" is displayed, the installation was successful.  
+
+# Key Features  
+- **SSHint**: Customize vertical coordinate display content.  
+- **AudioManager**: Play audio in MP3 and OGG formats (inspired by [SecretLabNAudio](https://github.com/Axwabo/SecretLabNAudio)).  
+- **SimpleKeyBindManager**: Manage key bindings.  
+
+# Plugin Development  
+[Click here to view](/Dev.me)  
+
+# Commands  
+The built-in command is `fmod`.  
+Subcommands:  
+- `list` — View loaded plugins.  
+- `version` — Check the FMOD version.  
+- `reload` — Hot-reload the framework and plugins.
+# Chinese中文自述
 # FMOD
 一个SCP SL的中文轻量级别的插件加载系统
 # 安装
