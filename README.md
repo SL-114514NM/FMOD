@@ -19,7 +19,7 @@ If "Welcome to FMOD" is displayed, the installation was successful.
 - **SimpleKeyBindManager**: Manage key bindings.  
 
 # Plugin Development  
-[Click here to view](/Dev.me)  
+[Click here to view](https://github.com/SL-114514NM/FMOD/blob/main/README.md#%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B--development-tutorial)  
 
 # Commands  
 The built-in command is `fmod`.  
@@ -41,7 +41,7 @@ SSHint, 自定义垂直坐标显示内容\
 AudioManager, 播放mp3,ogg格式的音频(想法来自于[SecretLabNAudio](https://github.com/Axwabo/SecretLabNAudio))\
 SimpleKeyBindManager, 管理按键绑定
 # 制作插件
-[点击查看](/Dev.me)
+[点击查看](https://github.com/SL-114514NM/FMOD/blob/main/README.md#%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B--development-tutorial)
 # 命令
 内置了一个命令"fmod"\
 子命令:\
