@@ -2,7 +2,7 @@
 一个SCP SL的中文轻量级别的插件加载系统
 # 安装
 下载"FMOD.zip"然后复制到%appdata%里(以Windows为例)\
-(如果无法在github上下载东西或下载太慢的，可以访问[123Pan](https://www.123912.com/s/rgcZjv-roy5d)下载)\
+(如果无法在github上下载东西或下载太慢的大陆小伙伴，可以访问[123Pan](https://www.123912.com/s/rgcZjv-roy5d)下载)\
 解压然后将里面的"FMOD","SCP Secret Laboratory"文件夹复制到%appdata%里\
 重启服务器\
 显示"欢迎使用FMOD"表示安装成功
